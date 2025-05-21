@@ -1,0 +1,76 @@
+
+.background {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #081CD4, #4CB4FF, #B2B3CC);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+
+.formContainer {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+}
+
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #0D27D7;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.socialIcons img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 1rem;
+  color: white;
+  text-decoration: underline;
+}
